@@ -1,27 +1,107 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
-import { FaCode, FaGraduationCap, FaRobot } from "react-icons/fa";
+import {
+  FaPhone,
+  FaCommentDots,
+  FaProjectDiagram,
+  FaBullseye,
+  FaGlobe,
+  FaHeadset,
+  FaDatabase,
+  FaCalendarCheck,
+  FaNetworkWired,
+  FaPython,
+  FaServer,
+  FaCode,
+  FaRocket,
+} from "react-icons/fa";
 import Circles from "../../components/Circles";
 import Bulb from "../../components/Bulb";
 
+const cardColors = [
+  "from-blue-500/20 to-cyan-500/20",
+  "from-purple-500/20 to-pink-500/20",
+  "from-green-500/20 to-emerald-500/20",
+];
+
 const services = [
   {
+    icon: <FaPhone />,
+    title: "AI Voice Receptionist & Calling Agents",
+    description: "24/7 custom voice agents for clinics and businesses that handle inbound/outbound calls naturally.",
+    color: cardColors[0],
+  },
+  {
+    icon: <FaCommentDots />,
+    title: "Advanced AI Chatbot Development",
+    description: "Intelligent chatbots for websites and apps that understand context and provide accurate customer responses.",
+    color: cardColors[1],
+  },
+  {
+    icon: <FaProjectDiagram />,
+    title: "Autonomous AI Workflows",
+    description: "Multi-step AI agents designed to automate your business's daily operations and repetitive tasks.",
+    color: cardColors[2],
+  },
+  {
+    icon: <FaBullseye />,
+    title: "B2B Lead Generation Agents",
+    description: "Automated agents that find targeted leads, send emails, and follow up with clients autonomously.",
+    color: cardColors[0],
+  },
+  {
+    icon: <FaGlobe />,
+    title: "Website AI Integration",
+    description: "Seamlessly integrating AI features, smart assistants, and search capabilities into existing web portals.",
+    color: cardColors[1],
+  },
+  {
+    icon: <FaHeadset />,
+    title: "Customer Support Automation",
+    description: "Fully automated AI systems to handle customer complaints, ticketing, and 24/7 helpdesk support.",
+    color: cardColors[2],
+  },
+  {
+    icon: <FaDatabase />,
+    title: "RAG (Retrieval-Augmented Generation) Systems",
+    description: "Custom AI agents trained exclusively on your private company data and internal documents.",
+    color: cardColors[0],
+  },
+  {
+    icon: <FaCalendarCheck />,
+    title: "AI Appointment Scheduling Bots",
+    description: "Calendar-integrated agents that talk to users and directly book, reschedule, or cancel appointments.",
+    color: cardColors[1],
+  },
+  {
+    icon: <FaNetworkWired />,
+    title: "Multi-Agent Systems",
+    description: "Complex setups where multiple specialized AI agents collaborate to complete large-scale projects.",
+    color: cardColors[2],
+  },
+  {
+    icon: <FaPython />,
+    title: "Custom Python AI Coding",
+    description: "Bespoke AI scripting, data processing, and tool creation using advanced Python frameworks.",
+    color: cardColors[0],
+  },
+  {
+    icon: <FaServer />,
+    title: "CRM & Database AI Integration",
+    description: "Connecting intelligent AI agents with your existing CRM software and company databases.",
+    color: cardColors[1],
+  },
+  {
     icon: <FaCode />,
-    title: "Global Web Development & Custom Software",
-    description: "Building modern websites, custom software, and full-scale applications from scratch for international clients.",
-    color: "from-blue-500/20 to-cyan-500/20",
+    title: "AI API Development & Backend Logic",
+    description: "Creating robust APIs and secure backend architectures for custom AI models.",
+    color: cardColors[2],
   },
   {
-    icon: <FaGraduationCap />,
-    title: "Agentic AI Master Course",
-    description: "Offering an exclusive, comprehensive Master Course in Agentic AI, teaching developers how to build autonomous workflows and AI agents.",
-    color: "from-purple-500/20 to-pink-500/20",
-  },
-  {
-    icon: <FaRobot />,
-    title: "AI Automation Solutions",
-    description: "Creating automated systems, AI receptionists, and advanced chatbots to streamline business operations globally.",
-    color: "from-green-500/20 to-emerald-500/20",
+    icon: <FaRocket />,
+    title: "AI SaaS Architecture & Deployment",
+    description: "Transforming AI concepts into full-fledged SaaS products and deploying them live.",
+    color: cardColors[0],
   },
 ];
 
