@@ -10,13 +10,13 @@ const Footer = () => {
           
           {/* Copyright */}
           <p className="text-white/40 text-sm">
-            © {new Date().getFullYear()} Syed Awais Gillani. All rights reserved.
+            © {new Date().getFullYear()} Tanzeel ur Rehman. All rights reserved.
           </p>
 
           {/* Social Links */}
           <div className="flex gap-4">
             <Link
-              href="https://wa.me/923257109880"
+              href="https://wa.me/923244368294"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/40 hover:text-accent transition-colors text-lg"
@@ -24,7 +24,7 @@ const Footer = () => {
               <FaWhatsapp />
             </Link>
             <Link
-              href="https://www.instagram.com/nexcore.i?igsi=MWE1ejQ5ODM2NzU0Mg=="
+              href="https://www.instagram.com/tanzeelur302?igsi=MTZxeDQybGFoZTF2Zg=="
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/40 hover:text-accent transition-colors text-lg"
@@ -32,7 +32,7 @@ const Footer = () => {
               <FaInstagram />
             </Link>
             <Link
-              href="https://github.com/rashidgillani490-hash"
+              href="https://github.com/Tanzeel-ur-rehman2008"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/40 hover:text-accent transition-colors text-lg"
@@ -40,7 +40,7 @@ const Footer = () => {
               <FaGithub />
             </Link>
             <Link
-              href="mailto:rashidgillani490@gmail.com"
+              href="mailto:tanzeelg2007@gmail.com"
               className="text-white/40 hover:text-accent transition-colors text-lg"
             >
               <FaEnvelope />

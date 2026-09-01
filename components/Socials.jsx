@@ -9,22 +9,22 @@ import {
 export const socialData = [
   {
     name: "WhatsApp",
-    link: "https://wa.me/923257109880",
+    link: "https://wa.me/923244368294",
     Icon: RiWhatsappLine,
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/nexcore.i?igsi=MWE1ejQ5ODM2NzU0Mg==",
+    link: "https://www.instagram.com/tanzeelur302?igsi=MTZxeDQybGFoZTF2Zg==",
     Icon: RiInstagramLine,
   },
   {
     name: "GitHub",
-    link: "https://github.com/rashidgillani490-hash",
+    link: "https://github.com/Tanzeel-ur-rehman2008",
     Icon: RiGithubLine,
   },
   {
     name: "Email",
-    link: "mailto:rashidgillani490@gmail.com",
+    link: "mailto:tanzeelg2007@gmail.com",
     Icon: RiMailLine,
   },
 ];

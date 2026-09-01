@@ -21,8 +21,8 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-            Hi, I&apos;m <span className="text-accent">Syed Awais Gillani</span> <br />
-            Founder & CEO of <span className="text-accent">NexCore</span> <br />
+            Hi, I&apos;m <span className="text-accent">Tanzeel ur Rehman</span> <br />
+            Co-founder of <span className="text-accent">NexCore</span> <br />
             & Agentic AI Expert
           </motion.h1>
 
@@ -34,7 +34,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 text-white/70"
           >
-            Hi, I&apos;m Syed Awais Gillani, Founder and CEO of NexCore. I specialize
+            Hi, I&apos;m Tanzeel ur Rehman, Co-founder of NexCore. I specialize
             in building intelligent AI automation systems, modern websites, and
             robust software architectures for an international client base. I
             don&apos;t just use existing tools; I build custom source code and

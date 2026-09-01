@@ -19,16 +19,16 @@ const Layout = ({ children }) => {
     >
       {/* metadata */}
       <Head>
-        <title>Syed Awais Gillani | Founder & CEO of NexCore | Agentic AI Expert</title>
+        <title>Tanzeel ur Rehman | Co-founder of NexCore | Agentic AI Expert</title>
         <meta
           name="description"
-          content="Syed Awais Gillani, Founder and CEO of NexCore, builds intelligent AI automation systems, modern websites, and scalable software architectures for an international client base."
+          content="Tanzeel ur Rehman, Co-founder of NexCore, builds intelligent AI automation systems, modern websites, and scalable software architectures for an international client base."
         />
         <meta
           name="keywords"
           content="react, next, nextjs, javascript, portfolio, framer-motion, agentic AI, AI automation, autonomous workflows, NexCore, full-stack, software architecture"
         />
-        <meta name="author" content="Syed Awais Gillani" />
+        <meta name="author" content="Tanzeel ur Rehman" />
         <meta name="theme-color" content="#a78bfa" />
       </Head>
 

@@ -42,10 +42,10 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: <FaWhatsapp />, label: 'WhatsApp', value: '03257109880', link: 'https://wa.me/923257109880' },
-    { icon: <FaInstagram />, label: 'Instagram', value: '@nexcore.i', link: 'https://www.instagram.com/nexcore.i?igsi=MWE1ejQ5ODM2NzU0Mg==' },
-    { icon: <FaGithub />, label: 'GitHub', value: '@rashidgillani490-hash', link: 'https://github.com/rashidgillani490-hash' },
-    { icon: <FaEnvelope />, label: 'Email', value: 'rashidgillani490@gmail.com', link: 'mailto:rashidgillani490@gmail.com' },
+    { icon: <FaWhatsapp />, label: 'WhatsApp', value: '03244368294', link: 'https://wa.me/923244368294' },
+    { icon: <FaInstagram />, label: 'Instagram', value: '@tanzeelur302', link: 'https://www.instagram.com/tanzeelur302?igsi=MTZxeDQybGFoZTF2Zg==' },
+    { icon: <FaGithub />, label: 'GitHub', value: '@Tanzeel-ur-rehman2008', link: 'https://github.com/Tanzeel-ur-rehman2008' },
+    { icon: <FaEnvelope />, label: 'Email', value: 'tanzeelg2007@gmail.com', link: 'mailto:tanzeelg2007@gmail.com' },
   ];
 
   return (

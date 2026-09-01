@@ -6,7 +6,7 @@ const Avatar = () => {
       <div className="relative w-[737px] h-[678px]">
         <Image
           src="/avatar.jpg"
-          alt="Portrait of Syed Awais Gillani, Founder & CEO of NexCore"
+          alt="Portrait of Tanzeel ur Rehman, Co-founder of NexCore"
           fill
           sizes="737px"
           className="object-contain mix-blend-lighten opacity-90"
